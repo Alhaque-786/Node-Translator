@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const MsTranslator = require('mstranslator');
 
 const app = express();
-const port = 3000;
+const port = 3001;
 
 const apiKey = 'YOUR_MICROSOFT_TRANSLATOR_API_KEY'; // Replace with your actual Microsoft Translator API key
 const translator = new MsTranslator({ api_key: '669198ae6b0b44a78a0c37956505d5e2', content_type: 'application/json' });
